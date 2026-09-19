@@ -1,0 +1,17 @@
+{
+  "name": "pawtrait-printify-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Proxy server that connects the Pawtrait website to your own Printify account.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
